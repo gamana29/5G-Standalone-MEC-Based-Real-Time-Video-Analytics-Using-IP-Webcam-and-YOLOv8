@@ -1,5 +1,5 @@
-# 🚀 5G Standalone (SA) MEC-Based Real-Time Video Analytics using IP Webcam & YOLOv8
-### ⚡ Edge AI Object Detection with 5G SA, MEC Server, Laptop & Mobile Camera
+#  5G Standalone (SA) MEC-Based Real-Time Video Analytics using IP Webcam & YOLOv8
+###  Edge AI Object Detection with 5G SA, MEC Server, Laptop & Mobile Camera
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue)]()
 [![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)]()
@@ -13,14 +13,14 @@
 
 ---
 
-# 📘 Project Overview
+#  Project Overview
 
 This project demonstrates a **5G Standalone (SA) Mobile Edge Computing (MEC)-based Real-Time Video Analytics System** powered by **YOLOv8** for high-speed object detection.
 
 The application performs real-time object detection using either:
 
-- 💻 Laptop Webcam
-- 📱 Mobile Camera via IP Webcam
+-  Laptop Webcam
+-  Mobile Camera via IP Webcam
 
 The captured video is processed locally on an **MEC Server (Laptop)**, enabling intelligent edge inference without relying on cloud computing.
 
@@ -28,7 +28,7 @@ By combining **5G Standalone architecture**, **Multi-access Edge Computing (MEC)
 
 ---
 
-# 📌 What is 5G Standalone (SA)?
+#  What is 5G Standalone (SA)?
 
 **5G Standalone (SA)** is a complete 5G network architecture built on a dedicated 5G Core instead of depending on existing 4G infrastructure.
 
@@ -45,23 +45,23 @@ Key advantages include:
 
 ---
 
-# 📌 What is MEC?
+#  What is MEC?
 
 **Multi-access Edge Computing (MEC)** brings cloud computing capabilities closer to end users by processing data at the network edge instead of sending everything to centralized cloud servers.
 
 ### In this project:
 
-- 📱 Camera captures live video
-- 📡 Video is transmitted through a **5G Standalone (SA) enabled edge network** (or local test network)
-- 💻 MEC Server receives the stream
-- 🤖 YOLOv8 performs object detection locally
-- ☁️ No cloud processing is required
+-  Camera captures live video
+-  Video is transmitted through a **5G Standalone (SA) enabled edge network** (or local test network)
+-  MEC Server receives the stream
+-  YOLOv8 performs object detection locally
+-  No cloud processing is required
 
 This architecture minimizes latency while improving speed, efficiency, and data privacy.
 
 ---
 
-# 🌐 System Architecture
+#  System Architecture
 
 ```
           Camera Device
@@ -86,20 +86,20 @@ This architecture minimizes latency while improving speed, efficiency, and data 
 
 ---
 
-# 📌 System Flow
+#  System Flow
 
-## 1️⃣ Data Source Layer
+## 1️ Data Source Layer
 
 Input devices:
 
-- 💻 Laptop Webcam
-- 📱 Mobile Camera (IP Webcam)
+-  Laptop Webcam
+-  Mobile Camera (IP Webcam)
 
 Video frames are continuously generated.
 
 ---
 
-## 2️⃣ Communication Layer
+## 2️ Communication Layer
 
 The camera stream is transmitted through a **5G Standalone (SA) network** or a local testing network.
 
@@ -111,7 +111,7 @@ For mobile streaming:
 
 ---
 
-## 3️⃣ MEC Layer
+## 3️ MEC Layer
 
 The laptop acts as the **MEC Server**.
 
@@ -127,7 +127,7 @@ Since computation happens at the network edge, cloud dependency is eliminated.
 
 ---
 
-## 4️⃣ Edge AI Processing
+## 4️ Edge AI Processing
 
 Each incoming frame undergoes:
 
@@ -142,7 +142,7 @@ All inference is performed locally on the MEC server.
 
 ---
 
-# 🖼 Project Demonstration
+#  Project Demonstration
 
 ## System Interface
 
@@ -154,7 +154,7 @@ All inference is performed locally on the MEC server.
 
 ---
 
-# ⚙ Working Process
+#  Working Process
 
 ## Option 1: Laptop Webcam
 
@@ -194,7 +194,7 @@ Steps:
 
 ---
 
-# 🖥 Overall Workflow
+#  Overall Workflow
 
 ```
 Camera
@@ -219,7 +219,7 @@ Real-Time Detection Output
 
 ---
 
-# 💻 Code Flow
+#  Code Flow
 
 ```python
 1. Start Application
@@ -248,7 +248,7 @@ Real-Time Detection Output
 
 ---
 
-# ⚡ Performance Benefits
+#  Performance Benefits
 
 ## Benefits of 5G SA + MEC
 
@@ -265,7 +265,7 @@ Real-Time Detection Output
 
 ---
 
-# 📊 MEC Advantages
+#  MEC Advantages
 
 Instead of:
 
@@ -295,7 +295,7 @@ This significantly reduces inference latency.
 
 ---
 
-# 🧪 Test Scenario 1
+#  Test Scenario 1
 
 Input:
 
@@ -312,7 +312,7 @@ Expected Output:
 
 ---
 
-# 🧪 Test Scenario 2
+#  Test Scenario 2
 
 Input:
 
@@ -328,7 +328,7 @@ Expected Output:
 
 ---
 
-# 🛠 Technologies Used
+#  Technologies Used
 
 - Python
 - OpenCV
@@ -344,7 +344,7 @@ Expected Output:
 
 ---
 
-# 📂 Code Snippets
+#  Code Snippets
 
 ## Load YOLO Model
 
@@ -376,7 +376,7 @@ cap = cv2.VideoCapture(ip_url)
 
 ---
 
-# 🚀 Future Enhancements
+#  Future Enhancements
 
 - Deploy on a real 5G Standalone Core Network
 - Kubernetes-based MEC orchestration
@@ -392,7 +392,7 @@ cap = cv2.VideoCapture(ip_url)
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions are welcome!
 
@@ -405,9 +405,7 @@ You can:
 
 ---
 
-# 📜 License
 
-This project is licensed under the MIT License.
 
 ---
 
